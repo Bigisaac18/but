@@ -282,5 +282,13 @@ int main() {
 	
 	// std::cout<<"Timestamp :"<<timestamp<<std::endl;
 
-	
+	// td3
+	// ex13
+
+	for(int i = 0; i < 10000; i++) {
+		std::system("cls");
+		for(int j = 0; j < i; j++) {
+			std::cout<<"*"<<std::ends;
+		}
+	}
 }
