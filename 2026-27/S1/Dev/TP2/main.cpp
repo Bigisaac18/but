@@ -159,6 +159,35 @@ void ex8() {
 	std::cout<<binaire;
 }
 
+void ex9() {
+    int userNb;
+    std::cout<<"Entrez un nombre"<<std::endl;
+    std::cin>>userNb;
+
+    for(int i = 0; i <= 9; i++) {
+        for(int j = 1; j <= 9; j++) {
+            for(int k = 0; k <= 9; k++) {
+                for(int l = 0; l <= 9; l++) {
+                    if(i+j+k+l == userNb) {
+                        int value = (1000*i) + (100 * j) + (10*k) + l;
+                        std::cout<< value <<std::endl;
+                    }
+                }
+            }
+        }
+    }
+}
+
+void Td3Ex13() {
+    for(int i = 0; i < 1000000; i++) {
+        for(int j = 0; j < i%100; j++) {
+            std::cout<<"-";
+        }
+        std::cout<<">";
+        std::system("cls");
+    }
+}
+
 int main() {
-    ex8();
+    Td3Ex13();
 }

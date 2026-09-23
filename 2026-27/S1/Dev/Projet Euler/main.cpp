@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int pr0() {
+void pr0() {
     int64_t somme = 0;
     for(int64_t i = 1; i < 894000; i++) {
         if((i*i) % 2 == 1) {
@@ -11,7 +11,7 @@ int pr0() {
     std::cout<<somme;
 }
 
-int pr1() {
+void pr1() {
     int64_t sum = 0;
     for(int64_t i = 0; i < 1000; i++) {
         if((i % 3 == 0) || (i % 5 == 0)) {
@@ -21,7 +21,7 @@ int pr1() {
     std::cout<<sum;
 }
 
-int pr2() {
+void pr2() {
     int64_t nb2 = 0;
     int64_t nb1 = 1;
     int64_t nb = nb1 + nb2;
@@ -39,7 +39,7 @@ int pr2() {
     std::cout<<sum<<std::endl;
 }
 
-int pr3() {
+void pr3() {
     int64_t prime = 2;
     int64_t nb = 600851475143;
     
@@ -52,7 +52,7 @@ int pr3() {
     }
 }
 
-int pr4() {
+void pr4() {
     int64_t nb = 0;
     std::string strNb = "0";
     for(int i = 100; i < 1000; i++) {
@@ -62,7 +62,7 @@ int pr4() {
             }
             strNb = std::to_string(nb);
             bool palindrome = true;
-            for(int l = 0; l < strNb.length(); l++) {
+            for(unsigned int l = 0; l < strNb.length(); l++) {
                 if(strNb[l] != strNb[strNb.length() - l - 1]) {
                     palindrome = false;
                 }
@@ -74,6 +74,22 @@ int pr4() {
     }
 }
 
+void pr5() {
+    for(int i = 1; i < 100000; i++) {
+        bool evenlyDivisible = true;
+        for(int j = 1; j <= 20; j++) {
+            if(i%j != 0) {
+                std::cout<<i<<std::endl;
+                evenlyDivisible = false;
+            }
+        }
+        if(evenlyDivisible) {
+            std::cout<<i<<std::endl;
+            evenlyDivisible = true;
+        }
+    }
+}
+
 int main() {
-    pr4();
+    pr5();
 }

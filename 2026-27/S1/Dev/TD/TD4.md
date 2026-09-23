@@ -5,11 +5,14 @@ Code 1 :
     fonction Entier f( Entier ref a ) {
         a ← Saisir()
     }  
+
 Code 2 :
 
     procedure lecture( Entier a ) {
         a ← Saisir()
     }  
+
+
 Code 3 :
 
     procedure lecture( Entier ref a ) {
