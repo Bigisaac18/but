@@ -14,25 +14,65 @@ float distance(float x = 0, float y = 0, float x1 = 0, float y1 = 0) {
     return distance;
 }
 
+void draw(float x0, float x1, float x2, float y0, float y1, float y2) {
+    float tolerance = 1e-3f;
+    
+    int max_x = std::max(std::max(x0,x1), x2) + 1;
+    int max_y = std::max(std::max(y0,y1), y2);
+    
+    std::cout<<std::endl;
+    for(int i = max_y; i >= 0; i--) {
+        for(int j = 0; j < max_x; j++) {
+            bool point = (
+                (std::abs(j - x0) < tolerance) &&
+                (std::abs(i - y0) < tolerance)
+            ) || (
+                (std::abs(j - x1) < tolerance) &&
+                (std::abs(i - y1) < tolerance)
+            ) || (
+                (std::abs(j - x2) < tolerance) &&
+                (std::abs(i - y2) < tolerance)
+            );
+            
+            if(point) {
+                std::cout<<"x  ";
+            } else {
+                std::cout<<"-  ";
+            }
+        }
+        std::cout<<std::endl;
+    }
+}
+
+void crop(float & x0, float & y0, float & x1, float & y1, float & x2, float & y2) {
+    float min_x = std::min(std::min(x0, x1), x2);
+    float min_y = std::min(std::min(y0, y1), y2);
+
+    x0 = x0 - min_x;
+    x1 = x1 - min_x;
+    x2 = x2 - min_x;
+    
+    y0 = y0 - min_y;
+    y1 = y1 - min_y;
+    y2 = y2 - min_y;
+}
+
 void triangle(float & cote0, float & cote1, float & cote2) {
     float x0 = 0;
     float y0 = 0;
-    std::cout<<"Coté 1 :"<<std::endl;
+    std::cout<<"Sommet 1 :"<<std::endl;
     saisie(x0, y0);
     float x1 = 0;
     float y1 = 0;
-    std::cout<<"Coté 2 :"<<std::endl;
+    std::cout<<"Sommet 2 :"<<std::endl;
     saisie(x1, y1);
     float x2 = 0;
     float y2 = 0;
-    std::cout<<"Coté 3 :"<<std::endl;
+    std::cout<<"Sommet 3 :"<<std::endl;
     saisie(x2, y2);
 
-    for(int i = 0; i < std::max(x0,x1,x2); i++) {
-        for(int j = 0; j < std::max(y0, y1, y2); j++) {
-            // terminer ici
-        }
-    }
+    crop(x0, y0, x1, y1, x2, y2);
+    draw(x0,x1,x2,y0,y1,y2);
 
     cote0 = distance(x0, y0, x1, y1);
     cote1 = distance(x1, y1, x2, y2);

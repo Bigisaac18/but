@@ -76,20 +76,40 @@ void pr4() {
 
 void pr5() {
     for(int i = 1; i < 100000; i++) {
-        bool evenlyDivisible = true;
-        for(int j = 1; j <= 20; j++) {
-            if(i%j != 0) {
-                std::cout<<i<<std::endl;
-                evenlyDivisible = false;
-            }
-        }
-        if(evenlyDivisible) {
-            std::cout<<i<<std::endl;
-            evenlyDivisible = true;
-        }
+        std::cout<<i<<std::endl;
     }
 }
 
+void pr6() {
+    long long sumSquare = 0;
+    long long squareSum = 0;
+
+    for(int i = 1; i <= 100; i++) {
+        sumSquare = sumSquare + (i * i);
+        squareSum = squareSum + i;
+    }    
+    std::cout<<(squareSum * squareSum) - sumSquare<<std::endl;
+}
+
+void pr7() {
+    long long currentNumber = 0;
+    int iNumber = 0;
+    for(int j = 2; iNumber < 10001; j++) {
+        bool prime = true;
+        for(long long i = 2; i < j; i++) {
+            if(j%i == 0) {
+                prime = false;
+                break;
+            }
+        }
+        if(prime) {
+            iNumber++;
+            currentNumber = j;
+        }
+    }
+    std::cout<<currentNumber<<std::endl;
+}
+
 int main() {
-    pr5();
+    pr7();
 }
