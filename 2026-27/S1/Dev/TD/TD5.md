@@ -152,7 +152,7 @@
     }
 
     int[] emptyDiagonales (char echiquier[], int ligne, int colonne) {
-        int diagonales[4]
+        int diagonales[4][2]
         int index = 0
 
         pour i allant de -1 à 1, pas de 2 {
