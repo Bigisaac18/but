@@ -28,17 +28,17 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px 10px 10px;
+    padding: 20px 50px 20px 50px;
     background-color: white;
     align-items: center;
 }
 
-header > div {
+nav {
     display: flex;
     gap: 30px;
 }
 
-header > div > a {
+nav > a {
     color: black;
 }
 
@@ -109,7 +109,7 @@ strong {
     margin-top: 20px;
 }
 
-.content > div {
+.content > div > section{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -125,10 +125,11 @@ footer {
 
 .title {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .services {
+    margin-top: 10px;
     color: var(--secondary-color);
     font-family: Manrope;
 }
@@ -139,4 +140,23 @@ footer {
     border-right: solid 1px #8e86b5;
     border-bottom: solid 1px #8e86b5;
     border-bottom-right-radius: 5px;
+}
+
+footer {
+    color: white;
+    font-family: Montserrat;
+    font: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.carre-contenu {
+    padding: 50px;
+}
+
+section {
+    padding: 80px;
 }
