@@ -82,15 +82,18 @@ Les parties prenantes peuvent prendre une position opposée à celle de l'entrep
 
 ## 3 Identifiez les parties prenantes primaires et secondaires de Decathlon et présentez leurs attentes respectives.
 
-- Parties prenantes primaires :
+- Parties prenantes primaires (personnes étant en interaction proche avec l'entreprise) :
     - Actionnaires (veulent un retour sur investissement rapide et élevé)
-    - Salariés (veulent de bonne conditions de travail avec un bon salaire)
-    - Clients (veulent des produits de qualité et des prix bas. Sont soucieux des actions de l'entreprise (environnement, idéologie...))
+    - Salariés (veulent de bonne conditions de travail avec un bon salaire) -> l'interet de dialoguer avec les salariés est d'assurer un bon climat social, de favoriser l'innovation, et surtout d'éviter les conflits sociaux, ce qui donnerait une mauvaise image de l'entreprise à son environnement.
+    - Clients (veulent des produits de qualité et des prix bas. Sont soucieux des actions de l'entreprise (environnement, idéologie...)) -> dialogue pour connaitre leurs attentes et leur proposer des produits adaptés.
     - Fournisseurs (veulent vendre beaucoup de produits à des prix hauts)
+    - Conccurent
+    - Sous traitants de Decathlon
 
-- Parties prenantes secondaires : 
+- Parties prenantes secondaires (personnes influencées ou influançant l'entreprise) : 
     - Médias (veulent de la matière pour parler de l'entreprise)
     - Pouvoirs publics (veulent que l'entreprise paye ses taxes)
+    - Organisation environnementales
 
 ## 4 Relevez les intérêts pour une entreprise de dialoguer avec ses parties prenantes.
 
@@ -98,3 +101,44 @@ Dialoguer avec ses parties prenante peut apporter des bénéfices à l'entrepris
 - Réduction du risque de réputation (image de l'entreprise ternie par un scandale ou une rumeur) -> Clients
 - Amélioration de l'image de l'entreprise -> Clients
 - Anticipation des risques (commerciaux, d'activités...) -> Fournisseurs
+
+# Page 4
+## 5 Pourquoi Decathlon a-t-il conçu cette matrice des enjeux ?
+## 6 Comment Decathlon répond-il aux attentes de ses parties prenantes ?
+
+Pour répondre aux attentes de ses parties prenantes, Decathlon cherche à réduire son impacte environnemental tout en continuant à développer la qualité de travail de ses employés et de créer de la richesse.
+
+## 7 Quel peut être le danger pour Decathlon de ne pas prendre en compte les attentes de ses parties prenantes ?
+
+Le risque est de fragiliser l'entreprise en se désolidarisant d'acteurs importants. 
+
+## 8 Expliquez comment Decathlon développe ses relations avec les parties prenantes.
+
+Decathlon cherche à accompagner ses collaborateurs dans leurs transitions. Création d'une équipe d'ingénieurs pour réduire l'impact environnemental.
+
+## 9 Montrez que les finalités de l'entreprise influencent ses relations avec les parties prenantes.
+
+# Page 5
+## 1
+Une entreprise performante est non seulement efficace (atteint l'objectif fixé), mais également efficiente lorsqu'elle utilise le minimum de moyens pour y arriver
+
+## 2
+L'entreprise cherche la performance globale, c'est à dire à maximiser le profit mais en meme temps d'assurer sa pérénité. Un bon climat social va améliorer la productivité des salariés. Les bon résultats financiers vont rassurer les actionnaires.
+
+## 3
+- Indicateur sociétal
+- Indicateur social
+- Indicateur économique
+
+# 4
+L'entrerpise Decathlon cherche à atteindre la performance globale puisqu'elle s'est fixée des objectifs économique, social et sociétal. Decathlon recherche l'efficience car elle souhaite atteindre ses objectifs en minimisant ses ressources.
+
+# Page 7
+## 5
+L'apport du tableau de bord de Decathlon est de permettre non seulement d'y insérer des indicateurs économiques, mais également des indicateurs non économiques et qualitatifs (fidélité des clients, implication des salariés, innovation).
+
+## 6
+Un tableau de bord leur permet de réduire leurs émissions de CO2, d'améliorer les performances des salariés, la diversité et l'inclusion dans l'entreprise.
+
+En plus des indicateurs traditionnels (total des ventes, turnover, arrets maladie...), le tableau de bord Decathlon synthétise tous ces indicateurs qui permettent de mesurer la performance de l'entreprise.
+## 7
