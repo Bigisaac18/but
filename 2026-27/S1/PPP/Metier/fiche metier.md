@@ -53,3 +53,15 @@
     - Développement économique
         - Optimiser les performances des réseaux informatiques 
 - Évolution professionnelle :
+
+- Statistiques :
+    - Parité homme-femmes
+    - Conditions de travail
+    - Stats régionales
+    - Astreinte ?
+
+Si pas de pro :
+- liste des personnes contactées, relancées (avec des dates)
+
+Rendu écrit PDF
+Rendu oral PDF
